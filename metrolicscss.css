@@ -20,21 +20,65 @@ h1 {
 .heading {
     text-align: center;
 }
-/*Modules*/
-
-/*Theme*/
 
 /*Smallonly*/
 @media screen and (max-width:39.9375em){}
 
 /*Mediumandup*/ 
-@media screen and (min-width:40em){}
+@media screen and (min-width:40em){
+
+    .row {
+        display: grid;
+        width: 85vw;
+        max-width: 70rem;
+        margin: 0 auto;
+        }
+    .m-col-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .m-col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .m-col-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .m-col-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .span-full {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+}
 
 /*Mediumonly*/
-@media screen and (min-width: 40em) and (max-width: 63.9375em){}
+@media screen and (min-width: 40em) and (max-width: 63.9375em){
+}
 
 /*Largeandup*/
-@media screen and (min-width: 64em){}
+@media screen and (min-width: 64em){
+
+    .l-col-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .l-col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .l-col-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .l-col-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .l-col-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
 
 /*Largeandup*/
 @media screen and (min-width: 64em) and (max-width: 74.9375em){}
+
+
+/*Modules*/
+
+/*Theme*/
