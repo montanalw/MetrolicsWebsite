@@ -1,3 +1,29 @@
+/*Base stylings*/
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: black;
+}
+
+/*Layout*/
+
+.heading {
+    text-align: center;
+}
+/*Modules*/
+
+/*Theme*/
+
 /*Smallonly*/
 @media screen and (max-width:39.9375em){}
 
