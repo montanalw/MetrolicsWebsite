@@ -21,6 +21,10 @@ h1 {
     text-align: center;
 }
 
+.heading-tag {
+    text-align: center;
+    }
+
 /*Smallonly*/
 @media screen and (max-width:39.9375em){}
 
@@ -53,6 +57,10 @@ h1 {
 
 /*Mediumonly*/
 @media screen and (min-width: 40em) and (max-width: 63.9375em){
+    .special-project {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
 }
 
 /*Largeandup*/
@@ -82,3 +90,11 @@ h1 {
 /*Modules*/
 
 /*Theme*/
+
+.slider-img {
+    background-color:#ebebeb;
+}
+.page__footer {
+    background-color: #16242f;
+    color: white;
+}
