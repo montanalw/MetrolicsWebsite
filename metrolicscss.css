@@ -15,6 +15,18 @@ h1 {
     color: black;
 }
 
+.about-info {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-icons {
+    width: 10rem;
+    height: 10rem;
+    display: block;
+    margin: auto;
+}
 /*Layout*/
 
 .heading {
@@ -25,11 +37,37 @@ h1 {
     text-align: center;
     }
 
+b {
+    color: #1eafde;
+}
 /*Smallonly*/
-@media screen and (max-width:39.9375em){}
+@media screen and (max-width:39.9375em){
+    .largescreens {
+        display: none;
+    }
+    .slider {
+        display: none;
+    }
+    .mobileversion {
+        width: 2.75rem;
+        margin-top: 1.75rem;
+        margin-left: 2rem;
+    }
+    .logoimg {
+        width: 20rem;
+    }
+  .m-1-2 {
+      display: flex;
+  }
+
+  .s-1-1
+}
 
 /*Mediumandup*/ 
 @media screen and (min-width:40em){
+    .mobileversion {
+        display: none;
+    }
 
     .row {
         display: grid;
@@ -49,10 +87,14 @@ h1 {
     .m-col-5 {
         grid-template-columns: repeat(5, 1fr);
     }
+    .m-1-2 {
+        grid-template-columns: 1fr 2fr;
+    }
     .span-full {
         grid-column-start: 1;
         grid-column-end: -1;
     }
+
 }
 
 /*Mediumonly*/
@@ -81,6 +123,10 @@ h1 {
     .l-col-6 {
         grid-template-columns: repeat(6, 1fr);
     }
+
+    .no-show {
+        display: none;
+    }
 }
 
 /*Largeandup*/
@@ -98,3 +144,4 @@ h1 {
     background-color: #16242f;
     color: white;
 }
+
