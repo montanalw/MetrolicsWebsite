@@ -1,0 +1,466 @@
+/*Base stylings*/
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: black;
+}
+
+.about-info {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-icons {
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    margin: auto;
+}
+
+
+
+/*Layout*/
+
+.heading {
+    text-align: center;
+}
+
+.heading-tag {
+    text-align: center;
+    }
+
+b {
+    color: #1eafde;
+}
+/*Smallonly*/
+@media screen and (max-width:39.9375em){
+   
+    .navbar {
+        display: none;
+    }
+    .slider {
+        display: none;
+    }
+    .fa-bars {
+        font-size: 1.75rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        color: white;
+        padding: .25rem;
+        background-color: #3492bb;
+    }
+    .logoimg {
+        width: 20rem;
+    }
+  .m-1-2 {
+      display: flex;
+  }
+
+  .s-col-3 {
+    grid-template-columns: 4, 1fr;
+    display: flex;
+  }
+
+  .thingsofabove {
+      display: none;
+  }
+  .sample-menu {
+      display: none;
+  }
+  .tabs {
+      display:none;
+  }
+  .sponsers {
+      display: none;
+  }
+
+  .icon-img {
+      display: flex;
+  }
+
+  .peewee-img {
+      border-radius: 60%;
+      width: 14rem;
+      height: 14rem;
+      float: left;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      margin-top: 3rem;
+      margin-right: 1rem;
+      
+  }
+  .about-peewee {
+       overflow: hidden;
+  }
+
+ .footer-opening {
+    font-style: italic;
+    font-size: 1rem;
+}
+main {
+    padding: 5rem;
+}
+
+footer {
+    padding: 5rem;
+}
+
+.footer-options{
+    display: none;
+}
+
+.heading {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*footer social media nav bar starts here */
+
+.footer-navbar {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    font-size: 2rem;
+}
+
+.facebook {
+    color: white;
+    background-color: #527cc4;
+    padding: 1.5rem;
+    margin: .25rem;
+}
+
+.google {
+    color: white;
+    background-color: #e46145;
+    padding: 1.5rem;
+    margin: .25rem;
+}
+
+.twitter {
+    background-color: #00b0e2;
+    color: white;
+    padding: 1.5rem;
+    margin: .25rem;
+}
+
+.instagram {
+    background-color: #f6679c;
+    color: white;
+    padding: 1.5rem;
+    margin: .25rem;
+}
+
+.wifi {
+    background-color: #fea501;
+    color: white;
+    padding: 1.25rem;
+    margin: .25rem;
+}
+
+/* end of footer social media nav bar */
+
+}
+
+.tweet {
+    background-color: rgb(170, 168, 168);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: .5rem;
+    overflow: hidden;
+}
+
+.tweet-icon {
+    float: left;
+    margin-right: 1rem;
+}
+.username {
+    color: #1bade6;
+}
+
+
+
+/*Mediumandup*/ 
+@media screen and (min-width:40em){
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    
+
+    /* footer hr styling */
+
+    .about-us-hr {
+        background-color: #088f5b;
+        height: .10rem;
+        border: none;
+        margin-right: .25rem;
+    }
+
+    .flicker-hr {
+        background-color: #f8ba0d;
+        height: .10rem;
+        border: none;
+    }
+
+    .twitter-hr {
+        background-color: #de6262;
+        height: .10rem;
+        border: none;
+        margin-right: .25rem;
+    }
+
+    .newsletter-hr {
+        background-color: #1bade6;
+        height: .10rem;
+        border: none;
+    }
+
+    /* footer hr styling ends */
+
+    /*footer styling starts*/
+
+    .flicker-photos {
+        width: 8rem;
+        height: 8rem;
+        margin: .25rem;
+    }
+
+    .sub-row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-navbar {
+        text-align: center;
+        display: flex;
+        flex: 1;
+        font-size: 2rem;
+    }
+    
+    .facebook {
+        color: white;
+        background-color: #527cc4;
+        padding: 1.5rem;
+        margin: .25rem;
+    }
+    
+    .google {
+        color: white;
+        background-color: #e46145;
+        padding: 1.5rem;
+        margin: .25rem;
+    }
+    
+    .twitter {
+        background-color: #00b0e2;
+        color: white;
+        padding: 1.5rem;
+        margin: .25rem;
+    }
+    
+    .instagram {
+        background-color: #f6679c;
+        color: white;
+        padding: 1.5rem;
+        margin: .25rem;
+    }
+    
+    .wifi {
+        background-color: #fea501;
+        color: white;
+        padding: 1.25rem;
+        margin: .25rem;
+    }
+
+    .peewee-img {
+        border-radius: 60%;
+        width: 7rem;
+        height: 7rem;
+        float: left;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-right: 1rem;
+    }
+
+    .footer-opening {
+        font-style: italic;
+        font-size: .80rem;
+    }
+
+    .email {
+        overflow: hidden;
+        background-color: #de6262;
+        margin-bottom: 2rem;
+    }
+
+    .button {
+        background-color: #ffb901;
+        color: white;
+        width: 2rem;
+        float: right;
+    }
+
+    /* footer styling ends*/
+
+    .navbar {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        display: flex;
+        flex: 1;
+    }
+
+
+    .icons {
+        color: white;
+        display: flex;
+        padding: .50rem;
+        float:left;      
+        text-align: center;
+        flex: 1;
+    }
+
+
+    .nav-name{
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+
+    .home {
+        background-color: #25c389;
+    }
+
+
+    .pages {
+        background-color: #ffb901;
+    }
+  
+
+    .blog {
+        background-color: #de6262;
+    }
+
+
+    .portfolio {
+        background-color: #1691bd;
+    }
+ 
+
+    .contact {
+        background-color: #166ba2;
+    }
+
+
+    .row {
+        display: grid;
+        width: 85vw;
+        max-width: 70rem;
+        margin: 0 auto;
+        }
+    .m-col-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .m-col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .m-col-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .m-col-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .m-1-2 {
+        grid-template-columns: 1fr 2fr;
+    }
+    .span-full {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .sponsers {
+        margin: .5rem;
+    }
+
+    .tweet {
+        background-color: rgb(170, 168, 168);
+        color: white;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        padding: .5rem;
+        overflow: hidden;
+    }
+    
+    .tweet-icon {
+        float: left;
+        margin-right: 1rem;
+    }
+    .username {
+        color: #1bade6;
+    }
+}
+
+/*Mediumonly*/
+@media screen and (min-width: 40em) and (max-width: 63.9375em){
+    .special-project {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+}
+
+/*Largeandup*/
+@media screen and (min-width: 64em){
+
+    .l-col-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    .l-col-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .l-col-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .l-col-5 {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .l-col-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .no-show {
+        display: none;
+    }
+}
+
+/*Largeandup*/
+@media screen and (min-width: 64em) and (max-width: 74.9375em){}
+
+
+/*Modules*/
+
+/*Theme*/
+
+.slider-img {
+    background-color:#ebebeb;
+}
+.page__footer {
+    background-color: #16242f;
+    color: white;
+}
+
