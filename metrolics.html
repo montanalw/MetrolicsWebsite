@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="metrolicscss.css" rel="stylesheet">
     </head>
     <body class="homepage">
@@ -15,13 +16,42 @@
                 <img class="logoimg" src="toplogo.png">
                 </div>
                 <div class="column">
-                    <img class="largescreens" src="topmenunav.png">
-                    <img class="mobileversion" src="hamburgerwebsite.png">
+                    <div class="hamburger-menu">
+                        <i class="fa fa-bars"></i>
                     </div>
-                
+
+                    <!-- start of navbar for tablet and desktop-->
+
+                    <div class="navbar">
+                        <div class="icons home">
+                            <i class="fa fa-home"><br><p class="nav-name">Home</p></i>
+                        </div>
+
+                        <div class="icons pages">
+                            <i class="fa fa-file"><p class="nav-name">Pages</p></i>
+                        </div>
+
+                        <div class="icons blog">
+                            <i class="fa fa-bullhorn"><p class="nav-name">Blog</p></i>
+                        </div>
+
+                        <div class="icons portfolio">
+                            <i class="fa fa-briefcase"><p class="nav-name">Portfolio</p></i>
+                        </div>
+
+                        <div class="icons contact">
+                            <i class="fa fa-envelope"><p class="nav-name">Contact</p></i>
+                        </div>
+                    </div>
+                    
+                    <!-- end of navbar -->
+
+                </div>
             </div>
         </header>
 
+                    <!-- end of header -->
+                    
         <div class="slider-img">
             <div class="row">
                 <div class="column">
@@ -39,28 +69,36 @@
             </div>
 
             <section class="about">
-                <div class="row l-col-4 m-col-2 ">
+                <div class="row l-col-4 m-col-2">
                     <div class="column span-full">
                         <h2 class="heading">Things That We Do</h2>
                         <p class="heading-tag">Ask us what we can do for you</p>
                     </div>
-                    <div class="column">
-                        <img class="about-icons" src="websolutionsicon.png">
+                    <div class="column s-col-3">
+                       <div class="icon-img">
+                            <img class="about-icons" src="websolutionsicon.png">
+                        </div>
                         <h3 class="heading">Web Solutions</h3>
                         <p class="about-info">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
                     </div>
-                    <div class="column">
-                        <img class="about-icons" src="photographyicon.png">
+                    <div class="column s-col-3">
+                        <div class="icon-img">
+                            <img class="about-icons" src="photographyicon.png">
+                        </div>
                         <h3 class="heading">Photography</h3>
                         <p class="about-info">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
                     </div>
-                    <div class="column">
-                        <img class="about-icons" src="webdevelopmenticon.png">
+                    <div class="column s-col-3">
+                        <div class="icon-img">
+                            <img class="about-icons" src="webdevelopmenticon.png">
+                        </div>
                         <h3 class="heading">Web Development</h3>
                         <p class="about-info">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
                     </div>
-                    <div class="column">
-                        <img class="about-icons" src="webdesignicon.png">
+                    <div class="column s-col-3">
+                        <div class="icon-img">
+                            <img class="about-icons" src="webdesignicon.png">
+                        </div>
                         <h3 class="heading">Web Design</h3>
                         <p class="about-info">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
                     </div>
@@ -204,10 +242,10 @@
                         <p class="heading-tag">Misc stuff we could not put anyplace else</p>
                     </div>
                     <div class="column">
-                        <p>GUI element here</p>
+                        <img class="sample-menu" src="samplemenu.png">
                     </div>
                     <div class="column">
-                        <p>GUI element here</p>
+                        <img class="tabs" src="tabs.png">
                     </div>
                 </div>
             </section>

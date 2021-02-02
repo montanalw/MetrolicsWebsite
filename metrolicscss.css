@@ -22,11 +22,14 @@ h1 {
 }
 
 .about-icons {
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
     display: block;
     margin: auto;
 }
+
+
+
 /*Layout*/
 
 .heading {
@@ -42,16 +45,19 @@ b {
 }
 /*Smallonly*/
 @media screen and (max-width:39.9375em){
-    .largescreens {
+    .navbar {
         display: none;
     }
     .slider {
         display: none;
     }
-    .mobileversion {
-        width: 2.75rem;
-        margin-top: 1.75rem;
+    .fa-bars {
+        font-size: 1.75rem;
+        margin-top: 2rem;
         margin-left: 2rem;
+        color: white;
+        padding: .25rem;
+        background-color: #3492bb;
     }
     .logoimg {
         width: 20rem;
@@ -60,14 +66,77 @@ b {
       display: flex;
   }
 
-  .s-1-1
+  .s-col-3 {
+    grid-template-columns: 4, 1fr;
+    display: flex;
+  }
+
+  .thingsofabove {
+      display: none;
+  }
+  .sample-menu {
+      display: none;
+  }
+  .tabs {
+      display:none;
+  }
+  .sponsers {
+      display: none;
+  }
+
+  .icon-img {
+      display: flex;
+  }
 }
 
 /*Mediumandup*/ 
 @media screen and (min-width:40em){
-    .mobileversion {
+
+    
+    .hamburger-menu {
         display: none;
     }
+    .navbar {
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        display: flex;
+        flex: 1;
+    }
+
+    .icons {
+        color: white;
+        display: flex;
+        padding: .50rem;
+        float:left;      
+        text-align: center;
+        flex: 1;
+        
+    }
+
+    .nav-name{
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .home {
+        background-color: #25c389;
+    }
+
+    .pages {
+        background-color: #ffb901;
+    }
+  
+    .blog {
+        background-color: #de6262;
+    }
+
+    .portfolio {
+        background-color: #1691bd;
+    }
+ 
+    .contact {
+        background-color: #166ba2;
+    }
+
 
     .row {
         display: grid;
@@ -94,7 +163,6 @@ b {
         grid-column-start: 1;
         grid-column-end: -1;
     }
-
 }
 
 /*Mediumonly*/
